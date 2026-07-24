@@ -22,7 +22,7 @@
     .hero-foot{display:flex;justify-content:space-between;align-items:end;color:rgba(255,255,255,.3);font:10px "JetBrains Mono",monospace;line-height:1.9}.pill{border:1px solid rgba(192,57,43,.6);border-radius:99px;padding:8px 14px;color:rgba(255,255,255,.65)}
     section{padding:84px 6vw}.label{color:var(--gray);margin-bottom:14px}h2{font-size:clamp(30px,4vw,46px);line-height:1.12;letter-spacing:-.03em;margin-bottom:18px}.intro{color:var(--gray);font-size:14px;line-height:1.75;max-width:700px;margin-bottom:40px}
     .features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.feature{background:#fff;border:1px solid var(--border);border-radius:9px;padding:30px;position:relative;overflow:hidden}.feature::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--red)}.num{font:10px "JetBrains Mono",monospace;color:var(--red);margin-bottom:16px}.feature h3{font-size:18px;margin-bottom:9px}.feature p{font-size:13px;color:var(--gray);line-height:1.65}
-    .investment{background:#fff;border:1px solid rgba(192,57,43,.45);box-shadow:0 0 0 1px var(--red),0 18px 50px rgba(192,57,43,.12);border-radius:10px;overflow:hidden}.inv-head{background:var(--black);color:#fff;padding:38px;display:flex;justify-content:space-between;gap:30px;align-items:center}.inv-head h3{font-size:23px;margin-bottom:8px}.inv-head p{font-size:13px;color:rgba(255,255,255,.48)}.price{text-align:right;white-space:nowrap}.price small{font:9px "JetBrains Mono",monospace;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase}.price strong{display:block;font-size:42px;color:#56c98a;letter-spacing:-.04em;margin-top:5px}
+    .investment{background:#fff;border:1px solid rgba(192,57,43,.45);box-shadow:0 0 0 1px var(--red),0 18px 50px rgba(192,57,43,.12);border-radius:10px;overflow:hidden}.inv-head{background:var(--black);color:#fff;padding:38px;display:flex;justify-content:space-between;gap:30px;align-items:center}.inv-head h3{font-size:23px;margin-bottom:8px}.inv-head p{font-size:13px;color:rgba(255,255,255,.48)}.price{text-align:right;white-space:nowrap}.price small{font:9px "JetBrains Mono",monospace;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase}.price strong{display:block;font-size:42px;color:#56c98a;letter-spacing:-.04em;margin-top:5px}.price .installments{margin-top:8px;color:#fff;font-size:12px;font-weight:600}
     .summary{display:grid;grid-template-columns:repeat(2,1fr);gap:0 30px;padding:18px 36px 28px}.term{border-bottom:1px solid var(--border);padding:20px 0;display:flex;gap:13px}.check{color:var(--green);font-weight:700}.term b{font-size:13px;display:block;margin-bottom:5px}.term p{font-size:12px;color:var(--gray);line-height:1.6}
     .cta{background:var(--black);color:#fff;text-align:center}.cta h2{max-width:760px;margin:0 auto 18px}.cta p{color:rgba(255,255,255,.45);font-size:14px}.badge{display:inline-block;margin-top:28px;border:1px solid rgba(192,57,43,.6);border-radius:99px;padding:10px 18px;font:10px "JetBrains Mono",monospace;color:rgba(255,255,255,.65);letter-spacing:.1em;text-transform:uppercase}
     footer{background:#070707;color:rgba(255,255,255,.25);padding:30px 6vw;display:flex;justify-content:space-between;font:9px "JetBrains Mono",monospace;text-transform:uppercase}
@@ -66,13 +66,14 @@
     <div class="investment">
       <div class="inv-head">
         <div><h3>Plano Ultra Flow</h3><p>CRM Flow · assinatura anual · 1 usuário</p></div>
-        <div class="price"><small>Valor total anual</small><strong>R$ 1.296,00</strong></div>
+        <div class="price"><small>Valor total anual</small><strong>R$ 1.296,00</strong><div class="installments">Parcelamento no cart&atilde;o: 12x de R$ 108,00</div></div>
       </div>
       <div class="summary">
         <div class="term"><span class="check">✓</span><div><b>Leads</b><p>Ilimitados.</p></div></div>
         <div class="term"><span class="check">✓</span><div><b>Conexão</b><p>1 número.</p></div></div>
         <div class="term"><span class="check">✓</span><div><b>Acesso</b><p>1 usuário.</p></div></div>
         <div class="term"><span class="check">✓</span><div><b>Estrutura</b><p>2 pipelines e 6 campos personalizados.</p></div></div>
+        <div class="term"><span class="check">&#10003;</span><div><b>Forma de pagamento</b><p>O valor anual de R$ 1.296,00 pode ser parcelado no cart&atilde;o de cr&eacute;dito em 12 parcelas de R$ 108,00.</p></div></div>
       </div>
     </div>
   </section>
