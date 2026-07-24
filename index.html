@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proposta Comercial — CRM Flow | Plano Ultra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--black:#0d0d0d;--white:#fff;--off:#f5f4f0;--gray:#77746f;--border:rgba(0,0,0,.1);--red:#c0392b;--green:#1f9d55}
+    body{font-family:Sora,sans-serif;background:var(--off);color:var(--black)}
+    .hero{min-height:84vh;background:var(--black);padding:46px 6vw;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+    .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 55% at 78% 38%,rgba(192,57,43,.24),transparent 65%)}
+    .hero>*{position:relative;z-index:1}.brand{display:flex;align-items:center;gap:15px;color:#fff}.brand-mark{width:48px;height:48px;border:1px solid rgba(255,255,255,.18);border-radius:50%;display:grid;place-items:center;font-weight:700;color:var(--red)}
+    .brand-name{font-size:14px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}.brand-sub{font:10px "JetBrains Mono",monospace;color:rgba(255,255,255,.42);letter-spacing:.1em;margin-top:4px;text-transform:uppercase}
+    .hero-main{padding:70px 0}.eyebrow,.label{font:10px "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase}.eyebrow{color:rgba(255,255,255,.44);margin-bottom:22px}
+    h1{font-size:clamp(42px,7vw,82px);line-height:1.02;letter-spacing:-.05em;color:#fff;max-width:920px}h1 em,h2 em{color:var(--red);font-style:normal}
+    .hero-copy{color:rgba(255,255,255,.5);font-size:16px;font-weight:300;line-height:1.75;max-width:650px;margin-top:28px}
+    .hero-foot{display:flex;justify-content:space-between;align-items:end;color:rgba(255,255,255,.3);font:10px "JetBrains Mono",monospace;line-height:1.9}.pill{border:1px solid rgba(192,57,43,.6);border-radius:99px;padding:8px 14px;color:rgba(255,255,255,.65)}
+    section{padding:84px 6vw}.label{color:var(--gray);margin-bottom:14px}h2{font-size:clamp(30px,4vw,46px);line-height:1.12;letter-spacing:-.03em;margin-bottom:18px}.intro{color:var(--gray);font-size:14px;line-height:1.75;max-width:700px;margin-bottom:40px}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.feature{background:#fff;border:1px solid var(--border);border-radius:9px;padding:30px;position:relative;overflow:hidden}.feature::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--red)}.num{font:10px "JetBrains Mono",monospace;color:var(--red);margin-bottom:16px}.feature h3{font-size:18px;margin-bottom:9px}.feature p{font-size:13px;color:var(--gray);line-height:1.65}
+    .investment{background:#fff;border:1px solid rgba(192,57,43,.45);box-shadow:0 0 0 1px var(--red),0 18px 50px rgba(192,57,43,.12);border-radius:10px;overflow:hidden}.inv-head{background:var(--black);color:#fff;padding:38px;display:flex;justify-content:space-between;gap:30px;align-items:center}.inv-head h3{font-size:23px;margin-bottom:8px}.inv-head p{font-size:13px;color:rgba(255,255,255,.48)}.price{text-align:right;white-space:nowrap}.price small{font:9px "JetBrains Mono",monospace;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase}.price strong{display:block;font-size:42px;color:#56c98a;letter-spacing:-.04em;margin-top:5px}
+    .summary{display:grid;grid-template-columns:repeat(2,1fr);gap:0 30px;padding:18px 36px 28px}.term{border-bottom:1px solid var(--border);padding:20px 0;display:flex;gap:13px}.check{color:var(--green);font-weight:700}.term b{font-size:13px;display:block;margin-bottom:5px}.term p{font-size:12px;color:var(--gray);line-height:1.6}
+    .cta{background:var(--black);color:#fff;text-align:center}.cta h2{max-width:760px;margin:0 auto 18px}.cta p{color:rgba(255,255,255,.45);font-size:14px}.badge{display:inline-block;margin-top:28px;border:1px solid rgba(192,57,43,.6);border-radius:99px;padding:10px 18px;font:10px "JetBrains Mono",monospace;color:rgba(255,255,255,.65);letter-spacing:.1em;text-transform:uppercase}
+    footer{background:#070707;color:rgba(255,255,255,.25);padding:30px 6vw;display:flex;justify-content:space-between;font:9px "JetBrains Mono",monospace;text-transform:uppercase}
+    @media(max-width:850px){.features{grid-template-columns:1fr}.summary{grid-template-columns:1fr}.inv-head{align-items:flex-start}.hero-foot,.inv-head,footer{flex-direction:column}.price{text-align:left}}
+    @media(max-width:600px){.hero{padding:30px 22px}section{padding:62px 22px}.inv-head{padding:28px}.summary{padding:10px 28px 24px}.price strong{font-size:34px}}
+    @media print{.hero{min-height:auto;height:680px}section{break-inside:avoid}.cta{break-before:page}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="brand">
+      <div class="brand-mark">V4</div>
+      <div><div class="brand-name">Proposta Comercial</div><div class="brand-sub">CRM Flow</div></div>
+    </div>
+    <div class="hero-main">
+      <div class="eyebrow">Plano anual · Ultra Flow</div>
+      <h1>Organize seus leads.<br><em>Acelere suas vendas.</em></h1>
+      <p class="hero-copy">Uma estrutura de CRM simples, completa e preparada para centralizar o atendimento, organizar oportunidades e dar mais visibilidade ao processo comercial.</p>
+    </div>
+    <div class="hero-foot"><div>Proposta comercial<br>CRM Flow<br>2026</div><div class="pill">Plano Ultra Flow · 1 usuário</div></div>
+  </header>
+
+  <section>
+    <div class="label">01 — Recursos incluídos</div>
+    <h2>Tudo o que sua operação precisa para <em>fluir.</em></h2>
+    <p class="intro">O Plano Ultra Flow reúne os recursos essenciais para uma gestão comercial organizada, com liberdade para cadastrar oportunidades e personalizar o processo.</p>
+    <div class="features">
+      <article class="feature"><div class="num">01</div><h3>Leads ilimitados</h3><p>Cadastre e acompanhe oportunidades sem limite de volume.</p></article>
+      <article class="feature"><div class="num">02</div><h3>1 número conectado</h3><p>Conexão com um número de atendimento para centralizar os contatos.</p></article>
+      <article class="feature"><div class="num">03</div><h3>1 usuário</h3><p>Acesso individual ao sistema para gestão da operação comercial.</p></article>
+      <article class="feature"><div class="num">04</div><h3>2 pipelines</h3><p>Dois funis comerciais para organizar diferentes jornadas ou processos de venda.</p></article>
+      <article class="feature"><div class="num">05</div><h3>6 campos personalizados</h3><p>Campos configuráveis para registrar as informações mais importantes de cada lead.</p></article>
+      <article class="feature"><div class="num">06</div><h3>Plano anual</h3><p>Contratação por 12 meses, garantindo continuidade e previsibilidade para a operação.</p></article>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">02 — Investimento</div>
+    <h2>Condição <em>comercial.</em></h2>
+    <p class="intro">Valor referente à contratação anual do Plano Ultra Flow, contemplando todos os recursos apresentados nesta proposta.</p>
+    <div class="investment">
+      <div class="inv-head">
+        <div><h3>Plano Ultra Flow</h3><p>CRM Flow · assinatura anual · 1 usuário</p></div>
+        <div class="price"><small>Valor total anual</small><strong>R$ 1.296,00</strong></div>
+      </div>
+      <div class="summary">
+        <div class="term"><span class="check">✓</span><div><b>Leads</b><p>Ilimitados.</p></div></div>
+        <div class="term"><span class="check">✓</span><div><b>Conexão</b><p>1 número.</p></div></div>
+        <div class="term"><span class="check">✓</span><div><b>Acesso</b><p>1 usuário.</p></div></div>
+        <div class="term"><span class="check">✓</span><div><b>Estrutura</b><p>2 pipelines e 6 campos personalizados.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="label">Próximo passo</div>
+    <h2>Seu processo comercial mais claro, organizado e pronto para <em>crescer.</em></h2>
+    <p>Após a aprovação, avançamos com a contratação e a configuração inicial do CRM Flow.</p>
+    <div class="badge">CRM Flow · Plano Ultra · Anual</div>
+  </section>
+  <footer><span>Proposta Comercial</span><span>CRM Flow · Plano Ultra</span><span>2026</span></footer>
+</body>
+</html>
+
